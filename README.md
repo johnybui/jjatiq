@@ -1,0 +1,2 @@
+# jjatiq
+Official homepage for JJATiQ. Custom mobile apps, intelligent web platforms, and tailored software solutions. Built with strategic engineering. Let’s chat.
