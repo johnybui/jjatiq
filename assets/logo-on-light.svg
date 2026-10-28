@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 48" role="img" aria-label="JJATiQ">
+  <rect width="48" height="48" rx="14" fill="#15152A"/>
+  <rect x=".75" y=".75" width="46.5" height="46.5" rx="13.25" fill="none" stroke="#FFFFFF" stroke-opacity=".1" stroke-width="1.5"/>
+  <path d="M33.53 29.5A11 11 0 1 0 29.5 33.53" fill="none" stroke="#7C6CFF" stroke-width="4.2" stroke-linecap="round"/>
+  <circle cx="35.2" cy="35.2" r="3.3" fill="#5EEAD4"/>
+  <text x="60" y="33.5" font-family="'Outfit', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600" letter-spacing="-0.3" fill="#0B0B14">JJAT<tspan fill="#5B4BFF">iQ</tspan></text>
+</svg>
