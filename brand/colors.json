@@ -1,0 +1,14 @@
+{
+  "background": "#0B1311",
+  "surface": "#111C19",
+  "surface2": "#16241F",
+  "tile": "#13201C",
+  "line": "#1F2F2A",
+  "text": "#EAF4F0",
+  "textSecondary": "#BFD0CA",
+  "textMuted": "#8FA79F",
+  "mint": "#3EE6B0",
+  "mintPressed": "#1FBF8F",
+  "mintText": "#7EF0CB",
+  "onMint": "#06231A"
+}
