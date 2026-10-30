@@ -100,11 +100,15 @@ a { color: inherit; text-decoration: none; }
   mask-image: radial-gradient(ellipse 70% 60% at 70% 40%, #000 20%, transparent 75%);
 }
 .hero__grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; align-items: center; }
-.hero h1 em { font-style: normal; color: var(--accent); position: relative; white-space: nowrap; }
-.hero h1 em::after {
-  content: ""; position: absolute; left: 0; right: 0; bottom: .04em; height: .12em;
-  background: var(--spark); border-radius: 4px; opacity: .55; z-index: -1;
+.hero h1 em {
+  font-style: normal; color: var(--accent); white-space: nowrap;
+  text-decoration: underline;
+  text-decoration-color: rgba(62,230,176,.4);
+  text-decoration-thickness: .07em;
+  text-underline-offset: .12em;
+  text-decoration-skip-ink: auto;
 }
+.hero h1 { line-height: 1.12; letter-spacing: -0.015em; }
 .lede { font-size: clamp(1.08rem, 1.6vw, 1.25rem); color: var(--ink-2); margin-top: 24px; max-width: 34ch; }
 .hero__cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
 .hero__tags { list-style: none; padding: 0; margin: 40px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
