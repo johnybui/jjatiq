@@ -256,6 +256,21 @@ legend { font-size: .88rem; font-weight: 500; color: var(--ink-2); margin-bottom
 .footer .brand { color: var(--ink); }
 .footer .brand__mark { width: 30px; height: 30px; }
 .footer .brand__word { font-size: 1.2rem; }
+.footer__legal { display: grid; gap: 4px; }
+
+/* ---------- Games ---------- */
+.nav__links a[aria-current="page"] { color: var(--ink); }
+.game-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 16px; }
+.game {
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px;
+  padding: 20px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.game:hover { transform: translateY(-2px); box-shadow: var(--glow); border-color: rgba(62,230,176,.5); }
+.game__icon { width: 88px; height: 88px; border-radius: 20px; display: block; }
+.game__info p { color: var(--ink-2); margin-top: 6px; max-width: 60ch; }
+.game__tags { list-style: none; padding: 0; margin: 12px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.game__tags li { font: 500 .75rem/1 var(--font-mono); color: var(--muted); padding: 7px 10px; border: 1px dashed var(--line); border-radius: 8px; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {
@@ -269,7 +284,11 @@ legend { font-size: .88rem; font-weight: 500; color: var(--ink-2); margin-bottom
 @media (max-width: 640px) {
   body { font-size: 16px; }
   .eyebrow { font-size: .7rem; letter-spacing: .08em; }
-  .nav__links { display: none; }
+  .nav__links a:not(.nav__keep) { display: none; }
+  .nav__links { gap: 0; }
+  .game { grid-template-columns: auto 1fr; gap: 16px; padding: 18px; }
+  .game__icon { width: 64px; height: 64px; border-radius: 16px; }
+  .game__play { grid-column: 1 / -1; width: 100%; }
   .steps, .principles__list, .form__row { grid-template-columns: 1fr; }
   .hero__cta .btn { flex: 1 1 100%; }
   .win__body { min-height: 220px; grid-template-columns: 38px 1fr; }

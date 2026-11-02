@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Games — JJATiQ</title>
+  <meta name="description" content="Games made by JJATiQ. Play them free in your browser.">
+  <meta property="og:title" content="Games — JJATiQ">
+  <meta property="og:description" content="Games made by JJATiQ. Play them free in your browser.">
+  <link rel="icon" href="../favicon.ico?v=3" sizes="48x48">
+  <link rel="icon" href="../favicon.svg?v=3" type="image/svg+xml">
+  <link rel="icon" href="../brand/png/mark-32.png?v=3" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png?v=3">
+  <meta property="og:image" content="https://jjatiq.dev/brand/png/logo-on-dark-480h.png">
+  <meta name="theme-color" content="#0B1311">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <!-- Reusable logo mark -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="mark" viewBox="0 0 48 48">
+      <rect width="48" height="48" rx="14" fill="#13201C"/>
+      <rect x=".75" y=".75" width="46.5" height="46.5" rx="13.25" fill="none" stroke="#FFFFFF" stroke-opacity=".1" stroke-width="1.5"/>
+      <path d="M33 16.5v9.5a3.5 3.5 0 0 0 7 0v-2A16 16 0 1 0 32 37.9" fill="none" stroke="#3EE6B0" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M19.5 17.5v8.5a4 4 0 0 1-4 4" fill="none" stroke="#EAF4F0" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M26 17.5v8.5a4 4 0 0 1-4 4" fill="none" stroke="#EAF4F0" stroke-width="3.4" stroke-linecap="round"/>
+    </symbol>
+  </svg>
+
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a href="../" class="brand" aria-label="JJATiQ home">
+        <svg class="brand__mark"><use href="#mark"/></svg>
+        <span class="brand__word">JJATiQ</span>
+      </a>
+      <nav class="nav__links" aria-label="Main">
+        <a href="../#services">Services</a>
+        <a href="../#approach">Approach</a>
+        <a href="../#principles">Why JJATiQ</a>
+        <a href="./" class="nav__keep" aria-current="page">Games</a>
+      </nav>
+      <a href="../#contact" class="btn btn--primary btn--sm">Let’s chat</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section games">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow"><span class="dot"></span> Games</p>
+          <h2>Play something we made.</h2>
+          <p class="section__sub">Free games that run right in your browser, on phones, tablets and computers. No download needed.</p>
+        </div>
+
+        <ul class="game-list">
+          <li>
+            <a class="game" href="faultline/">
+              <img class="game__icon" src="faultline/icon.svg" alt="" width="88" height="88">
+              <div class="game__info">
+                <h3>Fault Line</h3>
+                <p>Get a town ready for earthquakes and floods, then become the disaster and test the plan.</p>
+                <ul class="game__tags"><li>Kids</li><li>3D</li><li>Strategy</li></ul>
+              </div>
+              <span class="btn btn--primary btn--sm game__play">Play <span aria-hidden="true">→</span></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <a href="../" class="brand" aria-label="JJATiQ home">
+        <svg class="brand__mark"><use href="#mark"/></svg>
+        <span class="brand__word">JJATiQ</span>
+      </a>
+      <p>Made by JJATiQ</p>
+      <div class="footer__legal">
+        <p>© <span id="year">2026</span> JJATiQ LLC. All rights reserved.</p>
+        <p>JJATiQ and the JJATiQ logo are trademarks of JJATiQ LLC.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

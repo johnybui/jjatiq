@@ -1,0 +1,11 @@
+{
+  "name": "Fault Line",
+  "short_name": "Fault Line",
+  "description": "Protect a town from earthquakes and floods, then become the disaster and test the plan.",
+  "start_url": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#0B1311",
+  "theme_color": "#0B1311",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
